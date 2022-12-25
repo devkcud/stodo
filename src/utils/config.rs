@@ -1,9 +1,9 @@
 use std::{ path::Path, fs::{ create_dir_all, File } };
 
 pub struct Configuration {
-    root_dir: String,
-    config_file: String,
-    todo_list_file: String,
+    pub root_dir: String,
+    pub config_file: String,
+    pub todo_list_file: String,
 }
 
 pub fn init_config() -> Configuration {
