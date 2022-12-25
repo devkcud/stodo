@@ -37,7 +37,16 @@ All the versions in this table are my current.
 
 ## Build
 
-*TODO*.
+```sh
+git clone https://github.com/devkcud/stodo.git && cd ./stodo
+make
+```
+
+To clean every created file:
+
+```sh
+make overclean
+```
 
 ## Usage
 
